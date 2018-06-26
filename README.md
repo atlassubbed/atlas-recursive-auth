@@ -84,7 +84,7 @@ If you don't specify `props` in settings, it will default to:
 
 ### low-level api
 
-Now that we've instantiated our authorizer, we can wrap requests with the `ensure` method. This API can be used directly if you need more control over error handling, but I would suggest using the provider API instead, since it's way simpler.
+Now that we've instantiated our authorizer, we can wrap requests with the `ensure` method. The `ensure` method makes sure that the code inside of it is re-run with new credentials if it doesn't have valid credentials. This API can be used directly if you need more control over error handling, but I would suggest using the provider API instead, since it's way simpler.
 
 ```javascript
 ...

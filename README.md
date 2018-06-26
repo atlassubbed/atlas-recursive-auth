@@ -181,4 +181,4 @@ const auth = authorizer.createProvider(store, err => {
 // write your business logic using your provider 'auth'
 ```
 
-This could be solved by requiring a `setAuth` function which takes care of setting your client's authorization, but I'd rather keep the API small.
+This could be solved by requiring a `setAuth` function which takes care of setting your client's authorization, but I'd rather keep the API small and give the developer some more freedom.

@@ -36,6 +36,7 @@ const Authorizer = require("atlas-recursive-auth");
 const authorizer = new Authorizer({
   name: "my-app",
   clearAuth: ({username, password}, cache, cb) => {
+    // useAuth just sets query params or headers
     reddit.useAuth("password", username, password)
     reddit.deleteToken(cache.token, (err, res) => {
       // return null to signify auth error, else return err

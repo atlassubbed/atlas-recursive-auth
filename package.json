@@ -32,5 +32,11 @@
   "engines": {
     "node": "^10.1.0",
     "npm": "^6.0.1"
+  },
+  "homepage": "https://github.com/atlassubbed/atlas-recursive-auth#readme",
+  "bugs": "https://github.com/atlassubbed/atlas-recursive-auth/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atlassubbed/atlas-recursive-auth.git"
   }
 }

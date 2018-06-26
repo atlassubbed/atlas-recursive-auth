@@ -38,5 +38,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/atlassubbed/atlas-recursive-auth.git"
+  },
+  "dependencies": {
+    "configstore": "^3.1.2",
+    "prompt": "^1.0.0"
   }
 }

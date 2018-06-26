@@ -25,7 +25,7 @@ My room is already super messy at this point, and I like to keep it clean. Most 
 
 ## examples
 
-For these examples, let's assume we have some sort of Reddit client we're trying to establish long-term authentication. Let's also assume Reddit supports developer tokens. In theory, this will work with any website or service which lets you login and it doesn't even need to support developer tokens, since *you* write your own `clearAuth` and `getAuth` functions. You could just let the cache store your username and password, but it's recommended to use tokens if the service supports them.
+For these examples, let's assume we have some sort of Reddit client and we're trying to establish long-term authentication. Let's also assume Reddit supports developer tokens. In theory, this will work with any website or service which lets you login and it doesn't even need to support developer tokens, since *you* write your own `clearAuth` and `getAuth` functions. You could just let the cache store your username and password, but it's recommended to use tokens if the service supports them.
 
 #### required settings
 

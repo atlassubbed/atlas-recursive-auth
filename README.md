@@ -164,9 +164,9 @@ auth(reddit.setChatStatus)("offline") // no callback
 
 ## caveats
 
-The following shouldn't be necessary if your requests are already using the cache's token/creds and setting the appropriate query params or headers themselves. If you're relying on `getAuth` to set your client's token/creds, the following will be required.
+The following shouldn't be necessary if your requests are already using the cache's token/creds and setting the appropriate query params or headers themselves (e.g. with something like `useAuth` in the examples above). If you're relying on `getAuth` to set your client's token/creds, the following will be required.
 
-On the initial startup of your app, you might have to manually set the current token that's in the cache, if it exists. Otherwise, your app will prompt you for credentials even if you have a valid token in the cache:
+On the initial startup of your app, you might have to manually set the current token that's in the cache, if it exists. Otherwise, your app will eventually prompt you for credentials even if you have a valid token in the cache:
 
 ```javascript
 ...

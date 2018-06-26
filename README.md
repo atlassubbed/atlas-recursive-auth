@@ -166,7 +166,7 @@ auth(reddit.setChatStatus)("offline") // no callback
 
 The following shouldn't be necessary if your requests are already using the cache's token/creds and setting the appropriate query params or headers themselves (e.g. with something like `useAuth` in the examples above). If you're relying on `getAuth` to set your client's token/creds, the following will be required.
 
-#### prepare your client with the initial cache
+#### prepare your client with the cached token/creds
 
 On the very first authorized request your app makes, it will prompt you for credentials even if you have a valid token in the cache. The fix is pretty simple. Before your app starts making authorized requests, manually set the current token that's in the cache, if it exists:
 

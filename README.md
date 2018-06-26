@@ -137,7 +137,7 @@ auth(reddit.getPrivatePosts)(posts => {
 })
 ```
 
-If you play with react or blaze, you can compare it to a component re-rendering only the nested component when some data changes inside of the nested component.
+If you play with react or blaze, you can compare it to a component re-rendering only the nested component when some data changes inside of the nested component. The main difference is that "rendering" here means "ask the user for credentials, then get a valid token and try again".
 
 #### using a cache store
 

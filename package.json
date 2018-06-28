@@ -1,6 +1,6 @@
 {
   "name": "atlas-recursive-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ensures requests from CLI tool are using up-to-date credentials by re-prompting user for credentials when authorization is lost.",
   "scripts": {
     "test-server": "mocha --colors --watch --recursive './test/**/*.test.js'",

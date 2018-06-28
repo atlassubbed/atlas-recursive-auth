@@ -2,6 +2,8 @@
 
 Ensures requests from CLI tool are using up-to-date credentials by re-prompting user for credentials when authorization is lost.
 
+[![Travis](https://img.shields.io/travis/atlassubbed/atlas-recursive-auth.svg)](https://travis-ci.org/atlassubbed/atlas-recursive-auth)
+
 ---
 
 ## install
